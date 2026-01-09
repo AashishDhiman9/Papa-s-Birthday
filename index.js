@@ -3,17 +3,16 @@ const openBtn = document.getElementById("open");
 const music = document.getElementById("birthdayMusic");
 const balloons = document.querySelector(".balloons");
 
-// Ensure CLOSED on load
+// Ensure closed state
 card.classList.remove("open");
 
 openBtn.addEventListener("click", () => {
-  balloons.classList.add("show");   // 🎈 balloons
-  music.play().catch(() => {});     // 🎵 music
+  balloons.classList.add("show");
+  music.play().catch(() => {});
 
   setTimeout(() => {
-    card.classList.add("open");     // 📖 open card
+    card.classList.add("open");
   }, 500);
 
   openBtn.style.display = "none";
 });
-
