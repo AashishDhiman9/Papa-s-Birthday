@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happiest Birthday Papa</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display&family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Balloons -->
+<div class="balloons">
+  <span></span><span></span><span></span><span></span>
+  <span></span><span></span><span></span><span></span>
+</div>
+
+<div class="scene">
+  <div id="card">
+
+    <!-- FRONT COVER (ONLY VISIBLE INITIALLY) -->
+    <div id="card-cover">
+      <h1>Happiest Birthday Papa.</h1>
+      <button id="open">
+  <span class="date">10 Jan 🎉</span>
+  <span class="click-text">Click here</span>
+</button>
+
+    </div>
+
+    <!-- INSIDE CARD (HIDDEN INITIALLY) -->
+    <div id="card-inside">
+
+      <div class="inside left-page">
+        <h2>Happy Birthday Papa</h2>
+
+        <div class="photo-frame">
+          <img src="images/papa.jpg" alt="Papa">
+        </div>
+
+        <p class="caption">Forever my strength ❤️</p>
+        <p class="signed">— Your Loving Child</p>
+      </div>
+
+      <div class="inside right-page">
+        <h2>Thank You</h2>
+        <p>
+          For every sacrifice, every lesson,  
+          and every silent support.  
+          I am who I am because of you.
+        </p>
+        <p>
+          Wishing you good health, peace,  
+          and endless happiness always.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<audio id="birthdayMusic" src="music/happy-birthday.mp3"></audio>
+
+<script src="index.js"></script>
+</body>
+</html>
