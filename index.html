@@ -20,19 +20,22 @@
 <div class="scene">
   <div id="card">
 
-    <!-- FRONT COVER (ONLY VISIBLE INITIALLY) -->
+    <!-- FRONT COVER (ONLY THIS SHOWS INITIALLY) -->
     <div id="card-cover">
-      <h1>Happiest Birthday Papa.</h1>
-      <button id="open">
-  <span class="date">10 Jan 🎉</span>
-  <span class="click-text">Click here</span>
-</button>
+      <div class="front-content">
+        <h1>Happiest Birthday Papa.</h1>
 
+        <button id="open">
+          <span class="date">10 Jan 🎉</span>
+          <span class="click-text">Click here</span>
+        </button>
+      </div>
     </div>
 
     <!-- INSIDE CARD (HIDDEN INITIALLY) -->
     <div id="card-inside">
 
+      <!-- LEFT PAGE -->
       <div class="inside left-page">
         <h2>Happy Birthday Papa</h2>
 
@@ -44,6 +47,7 @@
         <p class="signed">— Your Loving Child</p>
       </div>
 
+      <!-- RIGHT PAGE -->
       <div class="inside right-page">
         <h2>Thank You</h2>
         <p>
@@ -66,3 +70,4 @@
 <script src="index.js"></script>
 </body>
 </html>
+
