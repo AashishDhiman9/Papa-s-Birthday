@@ -185,5 +185,96 @@ body {
 @keyframes float {
   to { transform: translateY(-120vh); }
 }
+/* ============================= */
+/* 📱 MOBILE RESPONSIVE DESIGN */
+/* ============================= */
+
+@media (max-width: 768px) {
+
+  body {
+    align-items: flex-start;
+    padding-top: 30px;
+  }
+
+  /* Card size */
+  #card {
+    width: 92vw;
+    height: auto;
+    min-height: 520px;
+  }
+
+  /* Front cover */
+  #card-cover {
+    width: 100%;
+    height: 520px;
+    padding: 30px 20px;
+  }
+
+  #card-cover h1 {
+    font-size: 44px;
+    line-height: 1.2;
+  }
+
+  /* Button */
+  #card-cover button {
+    margin-top: 20px;
+    padding: 14px 30px;
+  }
+
+  /* INSIDE CARD */
+  #card-inside {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .inside {
+    width: 100%;
+    padding: 25px 20px;
+  }
+
+  .left-page {
+    border-right: none;
+    border-bottom: 1px solid #e0cfcf;
+  }
+
+  /* Photo */
+  .photo-frame {
+    width: 220px;
+    height: 280px;
+  }
+
+  /* Text scaling */
+  .inside h2 {
+    font-size: 28px;
+  }
+
+  .caption {
+    font-size: 1.2em;
+  }
+
+  .signed {
+    font-size: 14px;
+  }
+
+  /* Balloons */
+  .balloons span {
+    width: 28px;
+    height: 38px;
+  }
+}
+
+/* Extra small phones */
+@media (max-width: 400px) {
+  #card-cover h1 {
+    font-size: 36px;
+  }
+
+  .photo-frame {
+    width: 200px;
+    height: 260px;
+  }
+}
+
+
 
 
